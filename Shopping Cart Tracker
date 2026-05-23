@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class ShoppingCartTracker {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        double cartTotal = 0.00;
+        System.out.println("=== Shopping Cart Tracker ===");
+        System.out.printf("Starting total: $%.2f%n%n", cartTotal);
+        System.out.print("Enter price of item 1: $");
+        double price1 = input.nextDouble();
+        cartTotal += price1;
+        System.out.printf("Cart total: $%.2f%n%n", cartTotal);
+        System.out.print("Enter price of item 2: $");
+        double price2 = input.nextDouble();
+        cartTotal += price2;
+        System.out.printf("Cart total: $%.2f%n%n", cartTotal);
+        System.out.print("Enter price of item 3: $");
+        double price3 = input.nextDouble();
+        cartTotal += price3;
+        System.out.printf("Cart total: $%.2f%n%n", cartTotal);
+        System.out.print("Enter price of item 4: $");
+        double price4 = input.nextDouble();
+        cartTotal += price4;
+        System.out.printf("Cart total: $%.2f%n%n", cartTotal);
+        System.out.println("=============================");
+        System.out.printf("Final total: $%.2f%n", cartTotal);
+    }
+}
