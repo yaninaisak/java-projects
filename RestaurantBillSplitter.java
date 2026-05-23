@@ -1,9 +1,3 @@
-/**
- * Lab 3 - Exercise 4: [Restaurant Bill Splitter]
- * Student Name: [Yanina İsak]
- * Student ID: [230446612]
- * Date: [12.03.2026]
- */
 import java.util.Scanner;
 public class RestaurantBillSplitter {
 public static void main(String[] args){
