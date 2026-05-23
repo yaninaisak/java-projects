@@ -1,9 +1,3 @@
-/**
- * Lab 3 - Exercise 2: [Grade Report Generator]
- * Student Name: [Yanina İsak]
- * Student ID: [230446612]
- * Date: [12.03.2026]
- */
 import java.util.Scanner;
 public class GradeReportGenerator {
     public static void main(String[] args) {
